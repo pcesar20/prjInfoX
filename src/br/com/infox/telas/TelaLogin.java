@@ -70,6 +70,7 @@ public TelaLogin() {
         else {
           lblStatus.setText("Não conectado!");  
             lblStatus.setForeground(Color.red);
+            JOptionPane.showMessageDialog(null, "Sem conexão ao banco de dados, informe ao suporte");
         }
            
     }
@@ -180,7 +181,7 @@ public TelaLogin() {
         try {
             logar();    
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Deu ruim");
+            JOptionPane.showMessageDialog(null, "Verifique seus dados.");
         }
         
     }//GEN-LAST:event_btnLoginActionPerformed
