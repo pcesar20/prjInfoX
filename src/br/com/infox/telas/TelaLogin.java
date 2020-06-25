@@ -197,7 +197,8 @@ public TelaLogin() {
     }//GEN-LAST:event_btnCancelActionPerformed
 
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
-    
+        TelaSplash sp = new TelaSplash();
+        sp.dispose();
     }//GEN-LAST:event_formWindowActivated
 
     /**
